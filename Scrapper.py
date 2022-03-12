@@ -182,14 +182,14 @@
  
  def   main (): 
       global   SAVE 
-      print ( "STARTING WhatScraper !!!" ) 
+      print ( "STARTING Scrapper !!!" ) 
       parser   =   argparse . ArgumentParser ( description = "Scrap Whatsapp Group Links" ) 
       parser . add_argument ( "-j" ,  "--json" ,  action = "store_true" , 
                           help = "Returns a JSON file instead of a text" ) 
       parser . add_argument ( "-l" ,  "--link" ,  action = "store" , 
                           help = "Shows Group Info from group link" ) 
       parser . add_argument ( "-u" ,  "--update" ,  action = "store_true" , 
-                          help = "Update WhatScrapper" ) 
+                          help = "Update Scrapper" ) 
       args   =   parser . parse_args () 
       if   args . update : 
           update_tool () 
